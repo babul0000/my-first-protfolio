@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* share style */
+.font-open-sans{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.color-primary{
+color: #FD6E0A;
+}
+.btn{
+    width: 150px;
+    height: 65px;
+    border-radius: 5px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    rotate: 1.13°;
+}
+/* main style */
+header{
+    background-color: #FFF8F3;
+    padding-top: 51px;
+}
+nav{
+    width: 70%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    align-items: center;
+}
+nav .menu a{
+    color: #AAAAAA;
+    font-size: 20px;
+    text-decoration: none;
+}
