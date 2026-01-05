@@ -16,20 +16,23 @@
 color: #FD6E0A;
 }
 .btn{
-    width: 150px;
-    height: 65px;
+    border: none;
     border-radius: 5px;
     color: white;
     background-color: #FD6E0A;
     padding: 20px 35px;
     font-size: 20px;
     font-weight: bold;
-    rotate: 1.13°;
+    cursor: pointer;
+    
 }
 /* main style */
 header{
     background-color: #FFF8F3;
     padding-top: 51px;
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 nav{
     width: 70%;
@@ -49,4 +52,90 @@ nav .menu a{
     color: #AAAAAA;
     font-size: 20px;
     text-decoration: none;
+}
+
+#banner .content p{
+    max-height: 60px;
+    max-width: 585px;
+      background-color: #FFF8F3;
+}
+#banner{
+    /* border: 1px solid black; */
+   margin: 14px 50px 0px 246px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+}
+#banner .content h2{
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 5px;
+}
+#banner .content h1{
+    font-size: 85px;
+    font-weight: bold;
+   margin-bottom: 20px;
+   color: #181818;
+}
+#banner .content p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+} 
+
+
+#banner .banner-image{
+    width: 584;
+    height: 676;
+    vertical-align: middle;
+}
+/* about */
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    text-align: center;
+    padding: 130px 156px ;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+    padding-bottom: 30px;line-height: 30px;
+}
+#about .about-container .about-info {
+    justify-content: space-around; 
+    display: flex;
+
+}
+.about-info .about-info p{
+     font-size: 20px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+} 
+.about-info .about-info h4{
+    font-size: 20px;
+    font-weight: normal;
+    color: 474747;
+    
 }
